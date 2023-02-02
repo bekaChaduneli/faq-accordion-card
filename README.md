@@ -11,7 +11,7 @@
 
 ### Screenshot
 
-![](/images/chrome_LJVZdiXubk.png)
+![](design/desktop-prewiew-jpg)
 
 ### Links
 
