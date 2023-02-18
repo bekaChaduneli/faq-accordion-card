@@ -1,4 +1,4 @@
-
+"use strict";
 var faq = document.querySelectorAll(".one-line");
 var arr = document.querySelectorAll('.question__button');
 var i;
@@ -13,6 +13,9 @@ for (i = 0; i < faq.length; i++) {
 
       } 
       else {
+        for (i = 0; i < faq.length; i++) {
+          faq[i].nextElementSibling.style.display = "none";
+        }
         panel.style.display = "block";
         this.querySelector("#uploadPreview").classList.add('active');
         this.querySelector("#question").classList.add('after');
